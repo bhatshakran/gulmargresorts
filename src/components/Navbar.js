@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaAlignRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+
 class Navbar extends React.Component {
 	state = {
 		isOpen: false,
@@ -34,9 +35,9 @@ class Navbar extends React.Component {
 							</a>
 						</li>
 						<li className='nav-item'>
-							<Link to='/rooms' className='nav-link'>
-								Rooms{' '}
-							</Link>
+							<a href='/about' className='nav-link'>
+								About
+							</a>
 						</li>
 					</ul>
 				</div>
